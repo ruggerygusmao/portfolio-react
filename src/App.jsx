@@ -38,7 +38,7 @@ const App = () => {
             >
                 {theme === 'dark'? '🌞' : '🌙'}
             </button>
-            <div className='font-inter bg:white dark:bg-slate-900'>
+            <div className='font-quicksand bg:white dark:bg-slate-900'>
                 <div className='max-w-5xl mx-auto w-11/12 max-auto'>
                     <HeroSection />
 					<Services />

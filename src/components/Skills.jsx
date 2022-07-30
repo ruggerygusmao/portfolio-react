@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <div>
         <SectionTitle id="skills">Skills</SectionTitle>
-        <div className='grid grid-cols-1 md:grid-cols-12 gap-5 '>
+        <div className='grid grid-cols-5 sm:grid-cols-12 gap-5'>
             <Image link="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" />
             <Image link="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" />
             <Image link="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" />
