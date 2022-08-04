@@ -8,12 +8,11 @@ function About() {
 			<div className="w-full md:w-6/12">
 				<SectionTitle id="about">About me</SectionTitle>
 				<p className="text-md text-gray-600 dark:text-gray-300  text-justify	">
-					Sou um entusiasta na área de tecnologia, Técnico em Informática para 
-					Internet pelo Instituto Federal de Pernambuco. Onde tive meu primeiro 
-					contato com desenvolvimento web e criei minhas primeiras aplicações junto 
-					com meus colegas. Atualmente estou trabalhando como Técnico em Informática, 
-					me formando em Análise e Desenvolvimento de Sistemas pela Uninassau-PE e 
-					estudando Front end através de um projeto da Rede Cidadã chamado Start.
+					Me chamo Ruggery Gusmão, tenho 25 anos, sou estudante de desenvolvimento fron end.
+					Meu primeiro contato com o desenvolvimento web foi no ano de 2016, através do curso 
+					Técnico em Informática para Internet pelo Instituto Federal de Pernambuco. Recentemente me graduei 
+					em Análise e Desenvolvimento de Sistemas pela Uninassau e atualmente estou trabalhando 
+					como Técnico em Informática, porém meu foco em ingressar na área de desenvolvimento.
 				</p>
 			</div>
 

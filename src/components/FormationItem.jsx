@@ -6,7 +6,7 @@ function FormationItem({ title, icon, description, subTitle }) {
 			<div className="text-gray-800 dark:text-gray-300 w-6 h-6 mb-3">
 				{icon}
 			</div>
-			<h1 className="font-semibold text-lg text-gray-600 dark:text-gray-200 mb-1">
+			<h1 className="font-semibold text-lg text-gray-600 dark:text-gray-200 mb-1 underline underline-offset-1">
 				{title}
 			</h1>
 			<h2 className="font-semibold text-sm text-gray-600 dark:text-gray-200 mb-1">
