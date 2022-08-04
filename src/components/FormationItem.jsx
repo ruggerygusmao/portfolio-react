@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ServiceItem({ title, icon, description, subTitle }) {
+function FormationItem({ title, icon, description, subTitle }) {
 	return (
 		<div className="bg-slate-300 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 hover:-translate-y-2 transform transition rounded-md p-5">
 			<div className="text-gray-800 dark:text-gray-300 w-6 h-6 mb-3">
@@ -17,4 +17,4 @@ function ServiceItem({ title, icon, description, subTitle }) {
 	);
 }
 
-export default ServiceItem;
+export default FormationItem;

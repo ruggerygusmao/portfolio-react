@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import About from './components/About';
 import Footer from './components/Footer';
+import Formation from './components/Formation';
 import HeroSection from './components/HeroSection';
-import Services from './components/Services';
 import Skills from './components/Skills';
 import Works from './components/Works';
 
@@ -41,7 +41,7 @@ const App = () => {
             <div className='font-quicksand bg:white dark:bg-slate-900'>
                 <div className='max-w-5xl mx-auto w-11/12 max-auto'>
                     <HeroSection />
-					<Services />
+					<Formation />
 					<Works />
 					<About />
                     <Skills />

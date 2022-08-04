@@ -14,6 +14,7 @@ function WorkItem({ imgUrl, title, tech, workUrl }) {
 				alt="work"
 				className="w-full h-36 md:h-48 object-cover"
 			/>
+			
 			<div className="w-full p-5 text-gray-600 dark:text-gray-300 ">
 				<h3 className="text-lg md:text-xl mb-2 md:mb-3 font-semibold">
 					{title}
