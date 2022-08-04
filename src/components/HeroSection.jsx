@@ -15,7 +15,7 @@ function HeroSection() {
             <div className='grid grid-cols-1 md:grid-cols-4 gap-5 '>
             <Button href={"#formation"}>Formation</Button>
             <Button href={"#works"}>Projects</Button>
-            <Button href={"#about"}>Skills</Button>
+            <Button href={"#skills"}>Skills</Button>
             <Button href={"#about"}>About me</Button>
             </div>
         </div>
