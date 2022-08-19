@@ -5,8 +5,7 @@ import Formation from './components/Formation';
 import HeroSection from './components/HeroSection';
 import Skills from './components/Skills';
 import Works from './components/Works'; 
-import { FaChevronUp } from "react-icons/fa";
-import Button from './components/Button';
+import ScrollToTop from "react-scroll-to-top";
 
 const App = () => {
     const [theme, setTheme] = useState(null);
@@ -32,6 +31,7 @@ const App = () => {
     }
   return (
         <>
+        <ScrollToTop className='bg-sky-600 rounded-full pl-1 hover:bg-sky-700' smooth />
             <button
             type='button'
             onClick={handleThemeSwitch}
@@ -40,21 +40,14 @@ const App = () => {
             >
                 {theme === 'dark'? '🌞' : '🌙'}
             </button>
-            <a  href={"#topo"}  
-                className='fixed z-10 right-2 bottom-4 bg-sky-600 text-gray-300
-                text-lg p-2 rounded-full hover:bg-sky-700 md:text-xl'
-            > 
-                <FaChevronUp />
-            </a>
-               
-            
+        
             <div className='font-quicksand bg:white dark:bg-slate-900'>
                 <div className='max-w-6xl mx-auto w-11/12 max-auto '>
                     <HeroSection />
 					<Formation />
 					<Works />
-					<About />
                     <Skills />
+					<About />
 					<Footer />
                 </div>
             </div>
